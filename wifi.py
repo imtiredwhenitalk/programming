@@ -1,8 +1,8 @@
 from wifi_qrcode_generator.generator import wifi_qrcode
 from PIL import Image
 
-ssid = "Asus_Tuf"
-password = "Tomar3456622tempel"
+ssid = "wifi name"
+password = "password"
 security = "WPA"  
 
 qr = wifi_qrcode(ssid, False, security, password)
